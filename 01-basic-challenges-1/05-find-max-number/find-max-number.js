@@ -1,7 +1,7 @@
-function findMaxNumber(args) {
-  let max = args[0];
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] > max) max = args[i];
+function findMaxNumber(arr) {
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) max = arr[i];
   }
   return max;
 }
